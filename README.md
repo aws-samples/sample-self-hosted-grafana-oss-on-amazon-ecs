@@ -29,7 +29,7 @@ Important: This is a development or experimental setup and is not production-rea
 * [An AWS account](https://console.aws.amazon.com/console/home?nc2=h_ct&src=header-signin)
 * [Docker](https://docs.docker.com/engine/install/) installed and running on your machine (for building and pushing the Grafana image)
 * [AWS CLI](https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html) installed and configured with appropriate [AWS profile](https://docs.aws.amazon.com/cli/v1/userguide/cli-configure-files.html)
-* [Terraform](https://developer.hashicorp.com/terraform/install) installed (Note: You can also use other tools such as [Podman](https://podman.io/). You would need to make changes to the `scripts/build-and-push.sh` script as detailed [here](https://docs.aws.amazon.com/AmazonECR/latest/userguide/Podman.html))
+* [Terraform](https://developer.hashicorp.com/terraform/install) installed (Note: You can also use other tools such as [Podman](https://podman.io/). You would need to make changes to the `build-and-push.sh` script as detailed [here](https://docs.aws.amazon.com/AmazonECR/latest/userguide/Podman.html))
 * [Grafana Open Source Docker image](https://grafana.com/docs/grafana/latest/setup-grafana/configure-docker/) (License: AGPLv3)
 
 
@@ -65,7 +65,7 @@ AND DISCLAIMERS APPLY EXCEPT TO THE EXTENT PROHIBITED BY APPLICABLE LAW.
 
 1. Clone the repository to your desired workspace and move into the repository:
    ```bash
-   git clone <repository-url>
+   git clone https://github.com/aws-samples/sample-self-hosted-grafana-oss-on-amazon-ecs
    cd aws-grafana-ecs-cloudfront-sample
    ```
 
