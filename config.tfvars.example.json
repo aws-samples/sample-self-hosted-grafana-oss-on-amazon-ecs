@@ -1,0 +1,8 @@
+{
+    "aws_region": "us-east-1",
+    "aws_account_id": "",
+    "aws_profile": "default",
+    "project_name": "grafana-ecs-cloudfront",
+    "grafana_admin_password": "<your-very-secure-password>",
+    "image_tag": "latest-ubuntu"
+}
