@@ -66,7 +66,7 @@ AND DISCLAIMERS APPLY EXCEPT TO THE EXTENT PROHIBITED BY APPLICABLE LAW.
 1. Clone the repository to your desired workspace and move into the repository:
    ```bash
    git clone https://github.com/aws-samples/sample-self-hosted-grafana-oss-on-amazon-ecs
-   cd aws-grafana-ecs-cloudfront-sample
+   cd sample-self-hosted-grafana-oss-on-amazon-ecs
    ```
 
 2. Set up your Terraform variables by copying the example configuration:
