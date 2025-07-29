@@ -291,8 +291,6 @@ resource "aws_iam_role" "ecs_task_role" {
   tags = var.tags
 }
 
-# ECS Service
-# ECS Service
 resource "aws_ecs_service" "grafana" {
   name            = "${var.project_name}-service"
   cluster         = aws_ecs_cluster.grafana.id

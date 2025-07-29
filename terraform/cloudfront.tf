@@ -25,7 +25,6 @@ resource "aws_cloudfront_distribution" "grafana" {
 
   enabled = true
 
-  # Default cache behavior
   default_cache_behavior {
     allowed_methods  = ["DELETE", "GET", "HEAD", "OPTIONS", "PATCH", "POST", "PUT"]
     cached_methods   = ["GET", "HEAD"]

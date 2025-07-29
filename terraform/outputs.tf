@@ -18,11 +18,6 @@ output "ecs_cluster_name" {
   value       = aws_ecs_cluster.grafana.name
 }
 
-output "ecs_service_name" {
-  description = "Name of the ECS service"
-  value       = aws_ecs_service.grafana.name
-}
-
 output "cloudwatch_log_group" {
   description = "CloudWatch log group for Grafana"
   value       = aws_cloudwatch_log_group.grafana.name
